@@ -10,7 +10,7 @@
 
 ## Description
 
-The YouTube Ad Blocker extension is available for both Chrome and Firefox browsers. It is designed to block ads on YouTube videos and offers several features that distinguish it from other ad-blocking extensions available in the marketplace. Specifically,
+This YouTube Ad Blocker extension is available for both Chrome and Firefox browsers. It is designed to block ads on YouTube videos and offers several features that distinguish it from other ad-blocking extensions available in the marketplace. Specifically,
 
 it allows you to:
 
