@@ -1,0 +1,21 @@
+{
+    "name": "Youtube Ad Blocker",
+    "description": "This is ad blocker extension for firefox",
+    "version": "0.3",
+    "manifest_version": 2,
+    "icons": {
+        "32": "/images/icon32.png",
+        "48": "/images/icon48.png",
+        "128": "/images/icon128.png"
+    },
+    "browser_action": {
+        "default_popup": "/popup.html"
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://www.youtube.com/*"],
+            "js": ["content.js"],
+            "run_at": "document_end"
+        }
+    ]
+}

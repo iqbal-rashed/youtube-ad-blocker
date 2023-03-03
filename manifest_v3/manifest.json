@@ -1,0 +1,25 @@
+{
+    "name": "Youtube Ad Blocker",
+    "version": "0.1",
+    "manifest_version": 3,
+    "icons": {
+        "32": "/images/icon32.png",
+        "48": "/images/icon48.png",
+        "128": "/images/icon128.png"
+    },
+    "action": {
+        "default_popup": "/popup.html",
+        "default_icon": {
+            "32": "/images/icon32.png",
+            "48": "/images/icon48.png",
+            "128": "/images/icon128.png"
+        }
+    },
+    "content_scripts": [
+        {
+            "matches": ["https://www.youtube.com/*"],
+            "css": [],
+            "js": ["content.js"]
+        }
+    ]
+}
