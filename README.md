@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/iqbal-rashed/youtube-ad-blocker-extension/main/manifest_v3/images/icon128.png">
+  <img src="https://raw.githubusercontent.com/iqbal-rashed/youtube-ad-blocker/main/manifest_v3/images/icon128.png">
 </p>
 <h1 align="center"> Youtube Ad Blocker Extension </h1>
 <p align="center">
