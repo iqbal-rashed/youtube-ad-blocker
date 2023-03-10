@@ -30,7 +30,7 @@ it allows you to:
 
 ### For Firefox:
 
--   Open Firefox and navigate to this [Link](https://addons.mozilla.org/en-US/firefox/addon/block-youtube-ads/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search).
+-   Open Firefox and navigate to this link [Block Youtube Ads](https://addons.mozilla.org/en-US/firefox/addon/block-youtube-ads/?utm_source=addons.mozilla.org&utm_medium=referral&utm_content=search).
 -   Click the "Add to Firefox" button to install the extension.
 -   Follow the prompts to confirm the installation, then restart your browser.
 -   Once the browser has restarted, the YouTube Ad Blocker extension will be active and will automatically block ads on any YouTube videos you watch.
