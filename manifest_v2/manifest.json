@@ -1,7 +1,7 @@
 {
     "name": "Youtube Ad Blocker",
     "description": "This is ad blocker extension for firefox",
-    "version": "0.3",
+    "version": "0.4",
     "manifest_version": 2,
     "icons": {
         "32": "/images/icon32.png",
