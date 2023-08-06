@@ -32,6 +32,10 @@ function adFunction() {
         "ytp-ad-skip-button ytp-button"
     );
 
+    const newSkipBtn = document.getElementsByClassName(
+        "ytp-ad-skip-button-modern ytp-button"
+    );
+
     const videoDocument = document.getElementsByClassName(
         "video-stream html5-main-video"
     );
@@ -46,8 +50,16 @@ function adFunction() {
         }
     }
 
+    function handleNewSkipBtn() {
+        if (newSkipBtn.length > 0) {
+            newSkipBtn[0].click();
+        }
+    }
+
     if (mainDocument.length > 0) {
         handleSkipBtn();
+        handleNewSkipBtn();
+
         if (playerOverlay.length > 0) {
             playerOverlay[0].style.visibility = "hidden";
             for (let i = 0; i < videoDocument.length; i++) {
@@ -56,6 +68,7 @@ function adFunction() {
                 }
             }
             handleSkipBtn();
+            handleNewSkipBtn();
         }
         if (imageOverlay.length > 0) {
             imageOverlay[0].style.visibility = "hidden";
