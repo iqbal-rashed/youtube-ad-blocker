@@ -1,0 +1,42 @@
+{
+  "name": "Youtube Ad Blocker",
+  "description": "A lightweight, highly optimized ad blocker designed to instantly skip video ads, hide banners, and remove overlays on YouTube.",
+  "version": "1.0",
+  "manifest_version": 3,
+  "icons": {
+    "32": "images/icon32.png",
+    "48": "images/icon48.png",
+    "128": "images/icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "32": "images/icon32.png",
+      "48": "images/icon48.png",
+      "128": "images/icon128.png"
+    }
+  },
+  "permissions": ["storage"],
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["content-main.js"],
+      "world": "MAIN",
+      "run_at": "document_start"
+    },
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "css": ["content.css"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "{2cf68b47-f2c7-4b5e-ad6d-ededa99c3a34}",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  }
+}

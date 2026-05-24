@@ -1,0 +1,47 @@
+#player-ads {
+    display: none !important;
+}
+
+.ytp-ad-text-overlay {
+    display: none !important;
+}
+
+.ytp-ad-image-overlay {
+    display: none !important;
+}
+
+ytd-promoted-sparkles-web-renderer {
+    display: none !important;
+}
+
+ytd-display-ad-renderer {
+    display: none !important;
+}
+
+ytd-ad-slot-renderer {
+    display: none !important;
+}
+
+ytd-banner-promo-renderer {
+    display: none !important;
+}
+
+ytd-in-feed-ad-layout-renderer {
+    display: none !important;
+}
+
+#masthead-ad {
+    display: none !important;
+}
+
+.ytd-companion-slot-renderer {
+    display: none !important;
+}
+
+.badge-style-type-ad {
+    display: none !important;
+}
+
+.ytp-ad-player-overlay {
+    display: none !important;
+}
