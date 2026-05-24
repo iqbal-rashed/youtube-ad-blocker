@@ -22,17 +22,6 @@
 
 This **YouTube Ad Blocker** is an advanced browser extension engineered to work seamlessly on **both Google Chrome and Mozilla Firefox** using a unified, clean codebase. It employs a modern dual-world execution architecture to solve the challenges of ad prevention on dynamic modern web players.
 
-### Technical Concept Showcase
-
-This codebase serves as a demonstration of high-performance DOM orchestration and event trust management:
-
-- **`MutationObserver`:** Intercepts dynamic Single-Page Application (SPA) DOM swaps to catch ad elements before rendering.
-- **Debounced Processing:** Limits computation overhead to a low-latency 50ms settling window during fast page transitions.
-- **Event-Trust Proxy (`isTrusted` Spoofing):** Injects an ES6 `Proxy` to wrap event listeners in the page's main execution context, enabling simulated trusted user click chains.
-- **CSS-Injection Painting:** Strips banner elements and display frames via pure stylesheet injection prior to visual browser paints to avoid layout flickering.
-
----
-
 ## Core Features
 
 - **Instant Video Ad Skipping:** Multi-layered engine that accelerates video ads to 16x playback rate, mutes audio, seeks to completion, and triggers skipping mechanisms.
@@ -87,9 +76,3 @@ youtube-ad-blocker/
 ```
 
 ---
-
-## Performance Auditing & Optimizations
-
-- **Throttled Storage Writes:** Storage counter persistence is debounced to 2-second windows to reduce background CPU cycles.
-- **Lightweight Package:** Compiled with zero runtime dependencies and fully cleaned of developer annotations to maintain a minimal extension footprint.
-- **Safe Interceptors:** Core DOM-queries and proxy handlers execute defensively with silent catches to prevent player interference.
